@@ -141,6 +141,10 @@
               "sqlid":"10098765",
               "fmt069_createtable_field_list_style":"stacked","fmt070_createtable_field_list_comma_option":"before_item_outside_list_with_n_space","fmt071_createtable_field_list_comma_space":1
           },
+          "alignField":{
+            "sqlid":"10098765",
+            "fmt176_createtable_field_align":"left"  
+          },
           "parenthesisStyle":{
               "sqlid":"10098765",
               "fmt072_createtable_field_list_start_parenthesis_in_newline":true,"fmt073_createtable_field_list_start_parenthesis_indent":2,"fmt074_createtable_field_list_end_parenthesis_in_newline":true,"fmt075_createtable_field_list_end_parenthesis_indent":2,"fmt076_createtable_field_list_first_field_in_newline":true,"fmt077_createtable_field_list_first_field_indent ":2
@@ -158,8 +162,19 @@
           "thenKeywordInNewline":{
               "sqlid":"10098931",
             "fmt081_case_then_in_newline":false    
+          },
+          "firstWhenInNewline":{
+              "sqlid":"10098931",
+              "fmt173_case_first_when_in_newline":true
+          },
+          "thenExprInNewline":{
+              "sqlid":"10098931",
+              "fmt174_case_then_expr_in_newline":true          
+          },
+          "elseExprInNewline":{
+              "sqlid":"10098931",
+              "fmt174_case_then_expr_in_newline":true          
           }
-          
       },
       "commonTableExpression":{
           "asKeywordInNewline":{
@@ -390,6 +405,15 @@
               }
           },
           "execute":{
+              "firstParameterInNewline":{
+                  "sqlid":"10221759",
+                  "fmt169_mssql_execute_parameters_in_newline":true,
+                  "fmt170_mssql_execute_parameters_indent":2
+              },
+              "alignValueOfParameter":{
+                  "sqlid":"10362081",
+                  "fmt177_mssql_execute_parameters_align_value":true
+              },
               "parameterListStyle":{
                   "sqlid":"10221759",
                   "fmt168_mssql_execute_parameters_style":"stacked",
